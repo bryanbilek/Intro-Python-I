@@ -49,7 +49,7 @@ print(test.name, test.difficulty, test.size, test.lat, test.lon)
 
 # YOUR CODE HERE
 waypoint = Waypoint("Catacombs", 41.70505, -121.51521)
-print(waypoint)
+#print(waypoint)
 
 # Without changing the following line, how can you make it print into something
 # more human-readable? Hint: Look up the `object.__str__` method
@@ -59,7 +59,7 @@ print(waypoint)
 
 # YOUR CODE HERE
 geocache = Geocache("Newberry Views", 1.5, 2, 44.052137, -121.41556)
-print(geocache.name, geocache.difficulty, geocache.size, geocache.lat, geocache.lon)
+#print(geocache)
 
 # Print it--also make this print more nicely
 print(geocache)

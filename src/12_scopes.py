@@ -5,8 +5,8 @@
 x = 12
 
 def change_x():
+    global x
     x = 99
-    print(x)
 
 change_x()
 
